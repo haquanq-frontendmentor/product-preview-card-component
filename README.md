@@ -12,10 +12,10 @@ Users should be able to:
 
 ### Preview
 
-![](./design/desktop-preview.jpg)
+- [Solution Link](https://www.frontendmentor.io/solutions/pure-html-and-css-8qXwI2ypkm)
+- [Site Link](https://haquanq.github.io/frontendmentor-product-preview-card-component/)
 
-- Solution URL: [Click me](https://www.frontendmentor.io/solutions/pure-html-and-css-8qXwI2ypkm)
-- Live Site URL: [Click me](https://haquanq.github.io/frontendmentor-product-preview-card-component/)
+![](./design/desktop-preview.jpg)
 
 ### Built with
 
