@@ -14,8 +14,8 @@ Users should be able to:
 
 ![](./design/desktop-preview.jpg)
 
-- Solution URL: [Click me](https://your-solution-url.com)
-- Live Site URL: [Click me](https://your-live-site-url.com)
+- Solution URL: [Click me](https://www.frontendmentor.io/solutions/pure-html-and-css-8qXwI2ypkm)
+- Live Site URL: [Click me](https://haquanq.github.io/frontendmentor-product-preview-card-component/)
 
 ### Built with
 
