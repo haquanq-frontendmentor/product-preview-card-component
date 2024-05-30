@@ -10,13 +10,38 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### Preview
+### Solution
 
-- [Solution Link](https://www.frontendmentor.io/solutions/pure-html-and-css-8qXwI2ypkm)
-- [Site Link](https://haquanq.github.io/frontendmentor-product-preview-card-component/)
+- Built with: `HTML` `CSS`
 
-![](./design/desktop-preview.jpg)
+[`Solution Link`](https://www.frontendmentor.io/solutions/pure-html-and-css-8qXwI2ypkm) [`Site Link`](https://haquanq.github.io/fm-product-preview-card-component/)
 
-### Built with
+![](./.docs/design/desktop-design.jpg)
 
-- Pure HTML & CSS
+## Working in `fm-product-preview-card-component` repository
+
+### Packages being used
+
+- [`browser-sync`](https://github.com/BrowserSync/browser-sync)
+
+### Clone this project to your machine
+
+Make sure you have Git installed in your system, open new terminal, run the following command:
+
+```
+git clone https://github.com/haquanq/fm-product-preview-card-component.git
+```
+
+Then, run `npm install` to install all dependencies.
+
+```
+npm install
+```
+
+### Development workflow
+
+In terminal, run `npm run dev` to start development server:
+
+```
+npm run dev
+```
