@@ -5,27 +5,21 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### The challenge
 
-- No access to design files :expressionless:
+- No access to design files, attempt pixel-perfect
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size :yum:
-- See hover and focus states for interactive elements :yum:
+- View the optimal layout depending on their device's screen size
+- See hover and focus states for interactive elements
 
 ### Solution
 
-- Built with: `HTML` `CSS`
-- Mobile first workflow
-
-:link: [`Solution Link`](https://www.frontendmentor.io/solutions/pure-html-and-css-8qXwI2ypkm) :link: [`Site Link`](https://haquanq.github.io/fm-product-preview-card-component/)
+- Built with: Semantic `HTML` & Vanilla`CSS`
+- Mobile-first workflow
 
 ![](./.docs/design/desktop-design.jpg)
 
 ## Working in `fm-product-preview-card-component` repository
-
-### Packages being used
-
-- [`browser-sync`](https://github.com/BrowserSync/browser-sync)
 
 ### Clone this project to your machine
 
