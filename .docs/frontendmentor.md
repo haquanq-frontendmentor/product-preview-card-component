@@ -6,8 +6,8 @@ Hello, this solution is an improved version of the old one, this time i made the
 
 **Built with**
 
-Semantic HTML
-Pure CSS
+- Semantic HTML
+- Pure CSS
 
 **What i have done**
 
