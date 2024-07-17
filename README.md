@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Solution
 
-- Built with: Semantic `HTML` & Vanilla`CSS`
+- Built with: `HTML` & `CSS`
 - Mobile-first workflow
 
 ![](./.docs/design/desktop-design.jpg)

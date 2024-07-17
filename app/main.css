@@ -18,7 +18,6 @@
 
     --rounded-sm: 0.5rem;
 }
-
 *,
 *::before,
 *::after {
@@ -151,20 +150,23 @@ h6 {
 .product__add-cart-btn span {
     margin-top: 0.0625rem;
 }
-.product__add-cart-btn:focus-visible {
-    outline: 2px dashed var(--clr-dark-cyan);
-    outline-offset: 4px;
-}
-.product__add-cart-btn:active {
-    transform: scale(0.95);
-}
 
+@supports selector(:active) {
+    button:active {
+        transform: scale(0.95);
+    }
+}
+@supports selector(:focus-visible) {
+    .product__add-cart-btn:focus-visible {
+        outline: 2px dashed var(--clr-dark-cyan);
+        outline-offset: 4px;
+    }
+}
 @media (hover: hover) {
     .product__add-cart-btn:hover {
         background-color: #1a4031;
     }
 }
-
 @media screen and (min-width: 48em) {
     .product {
         display: flex;
