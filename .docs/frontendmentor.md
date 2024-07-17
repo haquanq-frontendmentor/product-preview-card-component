@@ -4,16 +4,15 @@
 
 Hello, this solution is an improved version of the old one, this time i made the source code a bit cleaner and more maintainable 😁
 
-**Built with**
+🏄 **Built with**
 
 - Semantic HTML
 - Pure CSS
 
-**What i have done**
+👀 **What i have done**
 
-- Used my own judgement to achieve \*pixel-perfect without design files
+- Used my own judgement to achieve **pixel-perfect** without design files
 - Overridden default focus effect with outline on button
-- Made for mobile-first
 
 ### What challenges did you encounter, and how did you overcome them?
 
