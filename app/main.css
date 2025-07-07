@@ -1,3 +1,43 @@
+/* montserrat-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    src: url("./assets/fonts//montserrat-v30-latin-500.woff2") format("woff2"),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url("./assets/fonts//montserrat-v30-latin-500.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* montserrat-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    src: url("./assets/fonts//montserrat-v30-latin-700.woff2") format("woff2"),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url("./assets/fonts//montserrat-v30-latin-700.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* fraunces-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./assets/fonts//fraunces-v37-latin-regular.woff2") format("woff2"),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+            url("./assets/fonts//fraunces-v37-latin-regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* fraunces-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 700;
+    src: url("./assets/fonts//fraunces-v37-latin-700.woff2") format("woff2"),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */ url("./assets/fonts//fraunces-v37-latin-700.ttf")
+            format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
 :root {
     --clr-dark-cyan: hsl(158, 36%, 37%);
     --clr-cream: hsl(30, 38%, 92%);
@@ -7,8 +47,8 @@
 
     --shadow-sm: -8px 8px 32px -16px hsla(212, 21%, 14%, 0.2);
 
-    --font-sans: "Montserrat", sans-serif;
-    --font-serif: "Fraunces", sans-serif;
+    --font-primary: "Montserrat", sans-serif;
+    --font-secondary: "Fraunces", serif;
     --font-medium: 500;
     --font-bold: 700;
 
@@ -66,7 +106,7 @@ h6 {
 }
 .main__container {
     min-height: 100vh;
-    font-family: var(--font-sans);
+    font-family: var(--font-primary);
     font-weight: var(--font-medium);
     font-size: var(--text-body);
     padding: clamp(1.75rem, 14.25vw - 1.75rem, 10.9375rem) 0;
@@ -106,7 +146,7 @@ h6 {
 }
 .product__title {
     color: var(--clr-very-dark-blue);
-    font-family: var(--font-serif);
+    font-family: var(--font-secondary);
     font-size: 2rem;
     margin-bottom: 1rem;
 }
@@ -120,7 +160,7 @@ h6 {
     margin-bottom: 1.25rem;
 }
 .product__price__discount {
-    font-family: var(--font-serif);
+    font-family: var(--font-secondary);
     font-size: 2rem;
     color: var(--clr-dark-cyan);
 }
