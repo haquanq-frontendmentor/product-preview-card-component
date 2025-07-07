@@ -189,7 +189,11 @@ main {
 .product__add-cart-btn span {
     margin-top: 0.0625rem;
 }
-
+@media (prefers-reduced-motion: reduce) {
+    .product__add-cart-btn {
+        transition: 0;
+    }
+}
 @supports selector(:active) {
     button:active {
         transform: scale(0.95);
