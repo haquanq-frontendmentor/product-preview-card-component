@@ -184,14 +184,14 @@ main {
     transition-duration: 200ms;
 }
 .product__add-cart-btn img {
-    margin: 0 0.75rem 0 0;
+    margin-right: 0.75rem;
 }
 .product__add-cart-btn span {
     margin-top: 0.0625rem;
 }
 @media (prefers-reduced-motion: reduce) {
     .product__add-cart-btn {
-        transition: 0;
+        transition: none;
     }
 }
 @supports selector(:active) {
