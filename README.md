@@ -3,21 +3,38 @@
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+<p>
+  <a href="https://www.frontendmentor.io/solutions/mobile-first-responsive-pixel-perfect-w-html-and-css-FVQo_jhfl0">
+    <img
+      alt="Solution post"
+      src="https://img.shields.io/badge/Frontendmentor-blue?label=Solution%20on"
+    /></a>
+  <a href="https://haquanq-frontendmentor.github.io/product-preview-card-component/">
+    <img
+      alt="Live demo"
+      src="https://img.shields.io/badge/Demo-teal?label=Live"
+    /></a>
+  <a href="./LICENSE"
+    ><img
+      allt="MIT License"
+      src="https://img.shields.io/badge/MIT-blue?label=license"
+  /></a>
+</p>
+
 ## Table of contents
 
-- [Project overview](#rocket-project-overview)
-- [Development workflow](#boat-development-workflow)
+- [Project overview](#sunrise-project-overview)
+- [Development workflow](#stars-development-workflow)
 - [Working in this repository](#astronaut-working-in-fm-results-summary-component-repository)
-- [License](#page_with_curl-license)
 
-## :rocket: Project overview
+## :sunrise: Project overview
 
 ### Challenge equirements
 
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
-### Implemented features
+### Todo
 
 Accessibility
 
@@ -27,21 +44,22 @@ Accessibility
 
 ### Preview
 
-![](./.docs/design/desktop-design.jpg)
+![](./docs/design/desktop-design.jpg)
 
-## :boat: Development workflow
+## :stars: Development workflow
 
 ### Approach
 
-Developed with mobile-first workflow, followed with [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/)
+Site built with mobile-first workflow to prioritize mobile devices, made accessible using [ARIA Authoring Practices Guide (APG)](https://www.w3.org/WAI/ARIA/apg/).
 
-### Built with
+### Tools
 
-| Tool          | Note                               |
-| ------------- | ---------------------------------- |
-| `HTML`        | Standard markup language           |
-| `CSS`         | Vanilla CSS                        |
-| `BrowserSync` | Development server, live reloading |
+- **HTML + CSS:** vanilla CSS for styling.
+- **Browsersync:** live development server (sync files changes).
+
+### Deployment
+
+- Deployed on github page using Github Actions (manually triggered).
 
 ## :astronaut: Working in this repository
 
@@ -66,14 +84,10 @@ Then, run `npm install` to install all dependencies.
 npm install
 ```
 
-### Development workflow
+### Start development server
 
 In terminal, run `npm run dev` to start development server:
 
 ```
 npm run dev
 ```
-
-## :page_with_curl: License
-
-This project follows [MIT License](./LICENSE). **DO NOT** use this project as your solution on [Frontend mentor](https://www.frontendmentor.io/solutions).
