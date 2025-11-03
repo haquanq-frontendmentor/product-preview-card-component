@@ -1,0 +1,15 @@
+{
+  "name": "Product Preview Card Component",
+  "featured": false,
+  "colors": {
+    "brand": "#3F8067"
+  },
+  "images": {
+    "preview": "https://raw.githubusercontent.com/haquanq-frontendmentor/product-preview-card-component/main/docs/preview.jpg"
+  },
+  "frontendmentor": {
+    "difficulty": "newbie",
+    "challengeUrl": "https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa",
+    "solutionUrl": "https://www.frontendmentor.io/solutions/mobile-first-responsive-pixel-perfect-w-html-and-css-FVQo_jhfl0"
+  }
+}
