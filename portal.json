@@ -1,6 +1,6 @@
 {
   "name": "Product Preview Card Component",
-  "featured": false,
+  "featured": true,
   "colors": {
     "brand": "#3F8067"
   },
